@@ -1,0 +1,426 @@
+.header{
+	min-height: 90px;
+	border-bottom: 1px solid #00121e; 
+
+}
+
+
+.logoleft{
+	min-height: 60px;
+	float: left;
+	width: 7%
+}
+
+.headerlogo{
+	min-height: 80px;
+	width: 60%;
+	float: left;
+}
+
+
+.menu{
+	font-size: 1em;
+	color: white;
+	float: left;
+}
+
+.heroimage{
+	width: 100%;
+}
+
+
+
+.herowrapper{
+	background-color: none;
+
+}
+
+.li{
+	display: inline;
+}
+
+.aboutwrapper{ 
+	overflow: hidden;
+
+}
+
+.aboutleft{
+	min-height: 500px;
+	background-color: #a8cade;
+	width: 6%;
+	float: left;
+}
+
+.blog{
+	min-height: 500px;
+	background-color: #a8cade;
+	width: 50%;
+	float: left;
+}
+
+.abouttext{
+	font-size: 20px;
+
+}
+
+
+.myimage{
+	min-height: 500px;
+	background-color: white;
+	width: 35%;
+	float: right;
+}
+
+
+.service-wrapper{
+	overflow: hidden;
+	min-height: 500px;
+	background-color: #00755b;
+}
+
+
+.servicetextleft{
+	min-height: 100px;
+	width: 47%;
+	float: left;
+}
+
+.servicetext{
+	min-height: 100px;
+	width: 20%;
+	float: left;
+}
+
+
+
+.serviceleft{
+	min-height: 400px;
+	width: 5%;
+	float: left;
+}
+
+.service1{
+	min-height: 400px;
+	background-color: none;
+	width: 30%;
+	float: left;
+}
+
+.service2{
+	min-height: 400px;
+	background-color: none;
+	width: 30%;
+	float: left;
+}
+
+.service3{
+	min-height: 400px;
+	background-color: none;
+	width: 30%;
+	float: left;
+}
+
+
+.table{
+	min-height: 350px;
+	background-color: white;
+
+}
+
+.tablefont{
+	font-size: 20px;
+}
+
+.thfont{
+	color: red;
+	font-size: 25px;
+}
+
+.tabletop{
+	min-height: 40px;
+	
+}
+
+
+.tableleft{
+	min-height: 100px;
+	width: 33%;
+	float: left;
+
+}
+
+
+.footer{
+	overflow: hidden;
+	min-height: 350px;
+	background-color: #00121e;
+
+}
+
+
+.footertop{
+	min-height: 50px;
+}
+
+.footerleft{
+	min-height: 100px;
+	width: 7%;
+	float: left;
+}
+
+.footerlogotop{
+	min-height: 40px;
+	float: left;
+	width: 100%;
+}
+
+.footerlogo{
+	width: 30%;
+	float: left;
+}
+
+.footermenu{
+	width: 30%;
+	float: left;
+	min-height: 150px;
+}
+
+.sociallink{
+	width: 30%;
+	float: left;
+	min-height: 150px;
+}
+
+
+/*about page*/
+
+.aboutpageimage{
+	width: 100%;
+}
+
+.aboutpagewrapper{
+	min-height: 630px;
+	overflow: hidden;
+}
+
+.aboutpageleft{
+	width: 7%;
+	min-height: 600px;
+	float: left;
+}
+
+.aboutpagetext{
+	width: 80%;
+	min-height: 300px;
+	float: left;
+}
+
+.aboutpagetext2{
+	width: 80%;
+	min-height: 200px;
+}
+
+
+
+/*service page*/
+
+
+.spfwrapper{
+	min-height: 350px;
+	background-color: none;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+}
+
+.sptextleft{
+	width: 7%;
+	min-height: 350px;
+	float: left;
+}
+
+.sptext1{
+	min-height: 350px;
+	width: 40%;
+	float: left;
+}
+
+
+.spgimage{
+	float: left;
+}
+
+
+
+
+
+
+.spswrapper{
+	min-height: 350px;
+	background-color: none;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+}
+
+
+.sptwrapper{
+	min-height: 350px;
+	background-color: none;
+	overflow: hidden;
+}
+
+.sptexttop{
+	min-height: 30px;
+}
+
+
+
+/* Portfolio Page*/
+
+.ppheader{
+	min-height: 100px;
+
+}
+
+.ppheaderleft{
+	min-height: 100px;
+	width: 44%;
+	float: left;
+}
+
+
+.ppmainwrapper{
+	min-height: 1200px;
+	background-color: none;
+}
+
+.ppimageleft{
+	min-height: 1200px;
+	float: left;
+	background-color: none;
+	width: 7%;
+}
+
+
+.mainppbox1{
+	min-height: 600px;
+	float: left;
+	background-color: none;
+	width: 86%;
+}
+
+
+.b1{
+	width: 28%;
+	min-height: 600px;
+	background-color: none;
+	float: left;
+	
+}
+
+
+.b1-1{
+	width: 100%;
+	background-color: none;
+	min-height: 300px;
+}
+
+.b1-2{
+	width: 100%;
+	background-color: none;
+	min-height: 300px;
+}
+
+.b2{
+	width: 28%;
+	min-height: 600px;
+	background-color: none;
+	float: left;
+}
+
+.b3{
+	width: 28%;
+	min-height: 600px;
+	background-color: none;
+	float: left;
+}
+
+.b3-1{
+	width: 100%;
+	background-color: none;
+	min-height: 300px;
+	
+}
+
+.b3-2{
+	width: 100%;
+	background-color: none;
+	min-height: 300px;
+	
+}
+
+
+.mainppbox2{
+	min-height: 600px;
+	float: left;
+	background-color: none;
+	width: 86%;
+	overflow: hidden;
+}
+
+.b2-1{
+	width: 28%;
+	min-height: 600px;
+	background-color: none;
+	float: left;
+}
+
+.b2-2{
+	width: 28%;
+	min-height: 600px;
+	background-color: none;
+	float: left;
+	overflow: hidden;
+}
+
+
+.b2-2-1{
+	width: 100%;
+	background-color: none;
+	min-height: 300px;
+	float: left;
+}
+
+.b2-2-2{
+	width: 100%;
+	background-color: none;
+	min-height: 300px;
+	float: left;
+}
+
+
+
+.b2-3{
+	width: 28%;
+	min-height: 600px;
+	background-color: none;
+	float: left;
+}
+
+.b2-3-1{
+	width: 100%;
+	background-color: none;
+	min-height: 300px;
+	float: left;
+}
+
+.b2-3-2{
+	width: 100%;
+	background-color: none;
+	min-height: 300px;
+	float: left;
+}
+
+.ppfootertop{
+	min-height: 50px;
+	width: 100%;
+}
