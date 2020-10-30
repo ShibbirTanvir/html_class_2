@@ -425,3 +425,87 @@
 	min-height: 50px;
 	width: 100%;
 }
+
+
+/*contact page*/
+
+.contactwrapper{
+	min-height: 1000px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #ebebeb;
+}
+
+
+.contactwrapperleft{
+	min-height: 1000px;
+	width: 7%;
+	background-color: #ebebeb;
+	float: left;
+}
+
+.contacth1{
+	color: red;
+}
+
+.namewrapper{
+	min-height: 200px;
+	width: 100%;
+	background-color: none;
+}
+
+
+.firstname{
+	min-height: 100px;
+	width: 40%;
+	background-color: white;
+	border: 1px solid #a8a8a8;
+	float: left;
+}
+
+.lastnameleft{
+	width: 6%;
+	min-height: 100px;
+	float: left;
+	background-color: none;
+}
+
+
+.lastname{
+	min-height: 100px;
+	width: 40%;
+	background-color: white;
+	border: 1px solid #a8a8a8;
+	float: left;
+
+}
+
+
+.emailwrapper{
+	min-height: 200px;
+	width: 100%;
+	background-color: none;
+}
+
+
+.email{
+	width: 86%;
+	min-height: 100px;
+	background-color: white;
+	border: 1px solid #a8a8a8;
+	float: left;
+}
+
+.commentwrapper{
+	min-height: 400px;
+	width: 100%;
+	background-color: none;
+}
+
+.comment{
+	width: 86%;
+	min-height: 300px;
+	background-color: white;
+	border: 1px solid #a8a8a8;
+	float: left;
+}
