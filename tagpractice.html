@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> 50+ Tag Practice </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+<div class="tpmainwrapper">	
+	<div class="tppleft"></div>
+
+
+	<h2> 1. abbr </h2>
+	The <abbr title="Shikhbe Shobai"> <b> SS </b> </abbr> was founded in April 2017.
+
+	<h2> 2. adress </h2>
+	<address>
+	Written by Shibbi Tanvir<br>
+	Visit us at:<br>
+	mysite.com<br>
+	Mirpur-10, Kafrul<br>
+	Dhaka
+	</address>
+
+	<h2> 3. map and area (I don't understand) </h2>
+
+	<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+	<map name="workmap">
+	  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+	  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+	  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+	</map>
+
+
+	<h2> 4. article </h2>
+	<article>
+  	<h2>Google Chrome</h2>
+  	<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+	</article>
+
+
+
+	<h2> 5. aside (which the difference between article and aside) </h2>
+	<aside>
+  	<h3>Epcot Center</h3>
+  	<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks 	and seasonal special events.</p>
+	</aside>
+
+	
+
+	<h2> 6. audio </h2>
+	<audio controls>
+ 	<source src="mp3/music.mp3" type="audio/mpeg">
+	</audio>
+
+
+
+	<h2> 7. bold </h2>
+	<p> this <b> bold </b> text </p>
+
+
+
+
+
+	<h2> 8. base </h2>
+	<p> The base tag used in head. but I don't understand about it </p>
+
+
+
+
+	<h2> 9. bdi (Bi-Directional Isolation) </h2>
+	<p> I don't understand about it </p>
+	<ul>
+	<li>User <bdi>hrefs</bdi>: 60 points</li>
+ 	<li>User <bdi>jdoe</bdi>: 80 points</li>
+ 	<li>User <bdi>إيان</bdi>: 90 points</li>
+	</ul>
+
+
+
+
+
+	<h2> 10. bdo </h2>
+
+	<p>This paragraph will go left-to-right.</p>  
+	<p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>  
+
+
+
+	<h2> 11. blockquote </h2>
+	<p>Here is a quote from WWF's website:</p>
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+	For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+	</blockquote>
+
+
+
+
+	<h2> 12. body </h2>
+	<p> The body tag defines the document's body </p>
+
+
+
+
+	<h2> 13. br </h2>
+	<p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+
+
+
+
+	<h2> 14. button </h2>
+	<button type="button"  dform="form_id">Click Me!</button>
+
+
+
+
+	<h2> 15. canvas </h2>
+	<p> I don't understand about it </p>
+	
+	<canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+	<script>
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+	ctx.fillStyle = "#FF0000";
+	ctx.fillRect(0, 0, 80, 100);
+	</script>
+
+
+	<h2> 16. caption </h2>
+	<table>
+  	<caption>Monthly savings</caption>
+  	<tr>
+	    <th>Month</th>
+	    <th>Savings</th>
+  	</tr>
+  	<tr>
+  	 	<td>January</td>
+   		<td>$100</td>
+ 	 </tr>
+  	<tr>
+    	<td>February</td>
+    	<td>$50</td>
+  	</tr>
+	</table>
+
+
+
+	<h2> 17. cite </h2>
+	<p> The text in the cite element usually renders in italic </p>
+	<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+
+	<h2> 18. code </h2>
+	<p> The code tag is used to define a piece of computer code </p>
+	<p>The HTML <code>button</code> tag defines a clickable button.</p>
+
+
+	<h2> 19. col </h2>
+	<p> The col tag specifies column properties for each column within a colgroup element </p>
+	<table>
+ 	 <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+ 	</colgroup>
+ 	<tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+ 	</tr>
+ 	<tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+ 	</tr>
+ 	<tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+ 	</tr>
+ 	<tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  	</tr>
+	</table>
+
+
+
+	<h2> 20. colgroup </h2>
+
+	<p> The colgroup tag specifies a group of one or more columns in a table for formatting </p>
+
+	<table>
+ 	<colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+ 	</colgroup>
+ 	<tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+ 	</tr>
+ 	<tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+ 	</tr>
+ 	<tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+ 	</tr>
+ 	<tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  	</tr>
+	</table>
+
+	<h2> 21. data </h2>
+	<p>The data tag is used to add a machine-readable translation of a given content</p>
+	<ul>
+  	<li><data value="21053">Cherry Tomato</data></li>
+  	<li><data value="21054">Beef Tomato</data></li>
+  	<li><data value="21055">Snack Tomato</data></li>
+	</ul>
+
+
+	<h2> 22. datalist </h2>
+	<p> The datalist tag specifies a list of pre-defined options for an input element </p>
+	<form action="/action_page.php" method="get">
+  	<label for="browser">Choose your browser from the list:</label>
+  	<input list="browsers" name="browser" id="browser">
+ 	 <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+ 	</datalist>
+	<input type="submit">
+	</form>
+
+	<h2> 23. dd </h2>
+	<p> The dd tag is used to describe a term/name in a description list </p>
+	<dl>
+ 	<dt>Coffee</dt>
+  	<dd>Black hot drink</dd>
+  	<dt>Milk</dt>
+  	<dd>White cold drink</dd>
+	</dl>
+	
+
+
+	<h2> 24. del </h2>
+	<p> The del tag defines text that has been deleted from a document </p>
+	<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+
+	<h2> 25. details </h2>
+	<p> The details tag specifies additional details that the user can open and close on demand</p>
+	<details>
+  	<summary>Epcot Center</summary>
+  	<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+	</details>
+
+
+	<h2> 26. dfn </h2>
+	<p> The dfn tag stands for the "definition element", and it specifies a term that is going to be defined within the content.</p>
+	<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+
+	<h2> 27. dialog </h2>
+	<p> The dialog tag defines a dialog box or subwindow </p>
+	<h1>The dialog element</h1>
+	<p>This is some text.</p>
+	<p>This is some text.</p>
+	<dialog open>This is an open dialog window</dialog>
+	<p>This is some text.</p>
+	<p>This is some text.</p>
+
+
+
+	<h2> 28. div </h2>
+	<p> The div tag defines a division or a section in an HTML document </p>
+	<div style="border: 5px outset red; background-color: lightblue; text-align: center;">
+  	<h2>This is a heading in a div element</h2>
+  	<p>This is some text in a div element.</p>
+	</div>
+
+
+
+	<h2> 29. dl </h2>
+	<P> The dl tag defines a description list </P>
+	<dl>
+  	<dt>Coffee</dt>
+  	<dd>Black hot drink</dd>
+ 	<dt>Milk</dt>
+ 	<dd>White cold drink</dd>
+	</dl>
+
+
+
+
+
+	<h2> 30. dt </h2>
+	<p> The dt tag defines a term/name in a description list </p>
+	<dl>
+  	<dt>Coffee</dt>
+  	<dd>Black hot drink</dd>
+  	<dt>Milk</dt>
+  	<dd>White cold drink</dd>
+	</dl>
+
+
+
+
+	<h2> 31. em </h2>
+	<p> The em tag is used to define emphasized text. The content inside is typically displayed in italic </p>
+	<p>You <em>have</em> to hurry up!</p>
+	<p>We <em>cannot</em> live like this.</p>
+
+
+
+
+
+
+
+
+	<h2> 32. embed </h2>
+	<p> The embed tag defines a container for an external resource, such as a web page, a picture, a media player, or a plug-in application</p>
+	<embed type="image/jpg" src="img/fool.jpg" width="300" height="200">
+
+	<h2> 33. fieldset </h2>
+	<p> The fieldset tag is used to group related elements in a form </p>
+	<form action="/action_page.php">
+	<fieldset>
+	  <legend>Personalia:</legend>
+	  <label for="fname">First name:</label>
+	  <input type="text" id="fname" name="fname"><br><br>
+	  <label for="lname">Last name:</label>
+	  <input type="text" id="lname" name="lname"><br><br>
+	  <label for="email">Email:</label>
+	  <input type="email" id="email" name="email"><br><br>
+	  <label for="birthday">Birthday:</label>
+	  <input type="date" id="birthday" name="birthday"><br><br>
+	  <input type="submit" value="Submit">
+	 </fieldset>
+	</form>
+
+
+
+	<h2> 34. figcaption </h2>
+	<p>The figcaption tag defines a caption for a figure element</p>
+	<figure>
+  	<img src="img/fool.jpg" alt="image" style="width:30%">
+  	<figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+	</figure>
+
+
+	<h2> 35. colgroup </h2>
+	<p>The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc</p>
+	<figure>
+  	<img src="img/fool.jpg" alt="image" style="width:30%">
+ 	<figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+	</figure>
+
+	<h2> 36. footer </h2>
+	<p>The footer tag defines a footer for a document or section</p>
+	<footer>
+  	<p>Author: Hege Refsnes<br>
+  	<a href="mailto:hege@example.com">hege@example.com</a></p>
+	</footer>
+
+
+	<h2> 37. colgroup </h2>
+	<p> The form tag is used to create an HTML form for user input </p>
+	<form action="/action_page.php">
+  	<label for="fname">First name:</label>
+  	<input type="text" id="fname" name="fname"><br><br>
+  	<label for="lname">Last name:</label>
+  	<input type="text" id="lname" name="lname"><br><br>
+  	<input type="submit" value="Submit">
+	</form>
+
+	<h2> 38. header </h2>
+	<p> The header element represents a container for introductory content or a set of navigational links. </p>
+	<article>
+  	<header>
+    <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  	</header>
+  	<p>Lorem Ipsum dolor set amet....</p>
+	</article>
+
+
+	<h2> 39. hr </h2>
+	<p> The hr tag defines a thematic break in an HTML page (e.g. a shift of topic) </p>
+	<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+	<hr>
+	<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+
+
+	<h2> 40. i </h2>
+	<p> The i tag defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic </p>
+	<p> <i>Lorem ipsum</i> is the most popular filler text in history </p>
+
+
+	<h2> 41. iframe </h2>
+	<p> The iframe tag specifies an inline frame </p>
+	<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+	</iframe>
+
+
+	<h2> 42. input </h2>
+	<p>The input tag specifies an input field where the user can enter data </p>
+	<form action="/action_page.php">
+  	<label for="fname">First name:</label>
+  	<input type="text" id="fname" name="fname"><br><br>
+  	<label for="lname">Last name:</label>
+  	<input type="text" id="lname" name="lname"><br><br>
+  	<input type="submit" value="Submit">
+	</form>
+
+	<h2> 43. ins </h2>
+	<p> The ins tag defines a text that has been inserted into a document. Browsers will usually underline inserted text </p>
+	<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+
+
+
+	<h2> 44. kbd </h2>
+	<p> The kbd tag is used to define keyboard input. The content inside is displayed in the browser's default monospace font </p>
+	<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+
+
+	<h2> 45. label </h2>
+	<p>The label tag defines a label for several elements </p>
+	<form action="/action_page.php">
+	  <label for="male">Male</label>
+	  <input type="radio" name="gender" id="male" value="male"><br>
+	  <label for="female">Female</label>
+	  <input type="radio" name="gender" id="female" value="female"><br>
+	  <label for="other">Other</label>
+	  <input type="radio" name="gender" id="other" value="other"><br><br>
+	  <input type="submit" value="Submit">
+	</form>
+
+	<h2> 46. legend </h2>
+	<p> The legend tag defines a caption for the fieldset element </p>
+	<form action="/action_page.php">
+	<fieldset>
+	  <legend>Personalia:</legend>
+	  <label for="fname">First name:</label>
+	  <input type="text" id="fname" name="fname"><br><br>
+	  <label for="lname">Last name:</label>
+	  <input type="text" id="lname" name="lname"><br><br>
+	  <label for="email">Email:</label>
+	  <input type="email" id="email" name="email"><br><br>
+	  <label for="birthday">Birthday:</label>
+	  <input type="date" id="birthday" name="birthday"><br><br>
+	  <input type="submit" value="Submit">
+	 </fieldset>
+	</form>
+
+	<h2> 47. link </h2>
+	<p> The link tag defines the relationship between the current document and an external resource </p>
+
+
+	<h2> 48. main </h2>
+	<p> The main tag specifies the main content of a document </p>
+	<main>
+	  <h1>Most Popular Browsers</h1>
+	  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+	  <article>
+	    <h2>Google Chrome</h2>
+	    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+	  </article>
+
+	  <article>
+	    <h2>Mozilla Firefox</h2>
+	    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+	  </article>
+
+	  <article>
+	    <h2>Microsoft Edge</h2>
+	    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+	  </article>
+	</main>
+
+	<h2> 49. map </h2>
+	<p> The map tag is used to define an image map. An image map is an image with clickable areas </p>
+	<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+	<map name="workmap">
+	  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+	  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+	  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+	</map>
+
+	<h2> 50. mark </h2>
+	<p> The mark tag defines text that should be marked or highlighted </p>
+	<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+
+	<h2> 51. meta </h2>
+	<p> The meta tag defines metadata about an HTML document. Metadata is data (information) about data, Metadata will not be displayed on the page, but is machine parsable, Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.</p>
+
+	<h2> 52. meter </h2>
+	<P> The meter tag defines a scalar measurement within a known range, or a fractional value. This is also known as a gauge </P>
+	<label for="disk_c">Disk usage C:</label>
+	<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+	<label for="disk_d">Disk usage D:</label>
+	<meter id="disk_d" value="0.6">60%</meter>
+
+	<h2> 53. nav </h2>
+	<p> The nav tag defines a set of navigation links </p>
+	<nav>
+	<a href="/html/">HTML</a> |
+	<a href="/css/">CSS</a> |
+	<a href="/js/">JavaScript</a> |
+	<a href="/python/">Python</a>
+	</nav>
+
+
+</div>
+
+</body>
+</html>
