@@ -509,3 +509,18 @@
 	border: 1px solid #a8a8a8;
 	float: left;
 }
+
+/*tagpractice*/
+
+
+.tpmainwrapper{
+	min-height: 9150px;
+	width: 100%;
+}
+
+
+.tppleft{
+	min-height: 9150px;
+	width: 7%;
+	float: left;
+}
